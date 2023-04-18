@@ -98,7 +98,7 @@ const ImageSlider = ({ slides, parentWidth }) => {
   const goToNext = useCallback(() => {
     const isLastSlide = currentIndex === slides.length - 1;
     const newIndex = isLastSlide ? 0 : currentIndex + 1;
-    setCurrentIndex(newIndex);
+    setCurrentIndex(newIndex);                            //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
   }, [currentIndex, slides]);
   const goToSlide = (slideIndex) => {
     setCurrentIndex(slideIndex);
